@@ -21,7 +21,7 @@ class Routes extends Component {
 					<nav className="col-12">
 						<Link className="btn gsap-btn mr-2" to="/">Дом</Link>
             <Link className="btn gsap-btn mr-2" to="/expro">Экспромт</Link>
-						<Link className="btn gsap-btn mr-2" to="/services">Услуги</Link>
+						<Link className="btn gsap-btn mr-2" to="/services">Подарок</Link>
 						<Link className="btn gsap-btn" to="/contact">Контакт</Link>
 					</nav>
 
