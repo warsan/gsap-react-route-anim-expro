@@ -1,0 +1,22 @@
+body,
+pre {
+	background-color: #333;
+	color: #fff;
+}
+
+hr {
+	border-color: #fff;
+}
+
+.gsap-btn {
+	background-color: #02b177;
+	color: #fff;
+}
+
+a:hover,
+.gsap-btn:hover,
+.gsap-btn:active,
+.gsap-btn:focus {
+	background-color: #cea902;
+	color: #fff;
+}
