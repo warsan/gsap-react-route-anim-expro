@@ -162,62 +162,62 @@
    */
   // "editor.wordWrapMinified": true,
   /**
-   * Control indentation of wrapped lines. Can be: 'none', 'same', 'indent' or 'deepIndent'.
-   * Defaults to 'same' in vscode and to 'none' in monaco-editor.
+   * Управляйте отступом переносимых строк. Может быть: 'none', 'same', 'indent' или 'deepIndent'.
+   * Defaults to 'same' in vscode and to 'none' in monaco-editor.По умолчанию в vscode установлено 'same', а в monaco-редакторе - 'none'.
    */
   // "editor.wrappingIndent": "same",
   /**
-   * Configure word wrapping characters. A break will be introduced before these characters.
+   * Настроить символы переноса слов. Перед этими персонажами будет сделана пауза.
    * Defaults to '{([+'.
    */
   // "editor.wordWrapBreakBeforeCharacters": "{([+",
   /**
-   * Configure word wrapping characters. A break will be introduced after these characters.
+   * Настроить символы переноса слов. После этих символов будет введен перерыв.
    * Defaults to ' \t})]?|&,;'.
    */
   // "editor.wordWrapBreakAfterCharacters": " \t})]?|&,;",
   /**
-   * Configure word wrapping characters. A break will be introduced after these characters only if no `wordWrapBreakBeforeCharacters` or `wordWrapBreakAfterCharacters` were found.
+   * Настроить символы переноса слов. Разрыв будет введен после этих символов только в том случае, если не было найдено `wordWrapBreakBeforeCharacters` или `wordWrapBreakAfterCharacters`.
    * Defaults to '.'.
    */
   // "editor.wordWrapBreakObtrusiveCharacters": ".",
   /**
-   * Performance guard: Stop rendering a line after x characters.
+   * Защита производительности: прекратить отображение строки после x символов.
    * Defaults to 10000.
-   * Use -1 to never stop rendering
+   * Используйте -1, чтобы никогда не останавливать рендеринг
    */
   // "editor.stopRenderingLineAfter": -1,
   /**
-   * Configure the editor's hover.
+   * Настройте зависание редактора.
    */
   // "editor.hover": {
   /**
-   * Enable the hover.
+   * Включите наведение.
    * Defaults to true.
    */
   // "enabled": true,
   /**
-   * Delay for showing the hover.
+   * Задержка отображения зависания.
    * Defaults to 300.
    */
   // "delay": 300,
   /**
-   * Is the hover sticky such that it can be clicked and its contents selected?
+   * Является ли наведение липким, чтобы его можно было щелкнуть и выбрать его содержимое?
    * Defaults to true.
    */
   // "sticky": true
   // },
   /**
-   * Enable detecting links and making them clickable.
+   * Включите обнаружение ссылок и сделайте их интерактивными.
    * Defaults to true.
    */
   // "editor.links": true,
   /**
-   * Enable inline color decorators and color picker rendering.
+   * Включите встроенные декораторы цвета и отрисовку средства выбора цвета.
    */
   // "editor.colorDecorators": true,
   /**
-   * Enable custom contextmenu.
+   * Включить настраиваемое контекстное меню.
    * Defaults to true.
    */
   // "editor.contextmenu": true,
