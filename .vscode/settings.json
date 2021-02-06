@@ -39,51 +39,51 @@
    */
   // "editor.glyphMargin": true,
   /**
-   * The width reserved for line decorations (in px).
-   * Line decorations are placed between line numbers and the editor content.
-   * You can pass in a string in the format floating point followed by "ch". e.g. 1.3ch.
+   * Ширина, зарезервированная для оформления линий (в пикселях).
+   * Строчные украшения помещаются между номерами строк и содержимым редактора.
+   * Вы можете передать строку в формате с плавающей запятой, за которой следует "ch". например 1.3ch.
    * Defaults to 10.
    */
   // "editor.lineDecorationsWidth": 10,
   /**
-   * When revealing the cursor, a virtual padding (px) is added to the cursor, turning it into a rectangle.
-   * This virtual padding ensures that the cursor gets revealed before hitting the edge of the viewport.
+   * При открытии курсора к курсору добавляется виртуальный отступ (px), превращающий его в прямоугольник.
+   * Это виртуальное заполнение гарантирует, что курсор появится перед тем, как коснуться края области просмотра.
    * Defaults to 30 (px).
    */
   // "editor.revealHorizontalRightPadding": 30,
   /**
-   * Render the editor selection with rounded borders.
+   * Сделайте выделение редактора закругленными границами.
    * Defaults to true.
    */
   // "editor.roundedSelection": true,
   /**
-   * Control the behavior and rendering of the minimap.
+   * Управляйте поведением и отрисовкой миникарты.
    */
   // "editor.minimap": {
   //  "enabled": false
   // },
   /**
-   * Display overflow widgets as `fixed`.
+   * Отображать виджеты переполнения как `fixed`.
    * Defaults to `false`.
    */
   // "editor.fixedOverflowWidgets": false,
   /**
-   * The number of vertical lanes the overview ruler should render.
+   * Количество вертикальных полос, которые должна отображать линейка обзора.
    * Defaults to 2.
    */
   // "editor.overviewRulerLanes": 2,
   /**
-   * Controls if a border should be drawn around the overview ruler.
+   * Определяет, следует ли рисовать рамку вокруг обзорной линейки.
    * Defaults to `true`.
    */
   // "editor.overviewRulerBorder": true,
   /**
-   * Control the cursor animation style, possible values are 'blink', 'smooth', 'phase', 'expand' and 'solid'.
+   * Управляйте стилем анимации курсора, возможные значения: 'blink', 'smooth', 'phase', 'expand' и 'solid'.
    * Defaults to 'blink'.
    */
   // "editor.cursorBlinking": "blink",
   /**
-   * Zoom the font in the editor when using the mouse wheel in combination with holding Ctrl.
+   * Увеличьте шрифт в редакторе при использовании колесика мыши в сочетании с удержанием Ctrl.
    * Defaults to false.
    */
   // "editor.mouseWheelZoom": false,
