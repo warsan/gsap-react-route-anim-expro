@@ -1,35 +1,35 @@
 {
   // "editor.theme": "vs-dark",
   /**
-   * Render vertical lines at the specified columns.
-   * Defaults to empty array.
+   * Отрисовывать вертикальные линии в указанных столбцах.
+   * По умолчанию пустой массив.
    */
   // "editor.rulers": [],
   /**
-   * A string containing the word separators used when doing word navigation.
+   * Строка, содержащая разделители слов, используемые при навигации по словам.
    * Defaults to `~!@#$%^&*()-=+[{]}\\|;:\'",.<>/?
    */
   // "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\\\|;:\\'\",.<>/?",
   /**
-   * Enable Linux primary clipboard.
-   * Defaults to true.
+   * Включить основной буфер обмена Linux.
+   * По умолчанию true.
    */
   // "editor.selectionClipboard": true,
   /**
-   * Control the rendering of line numbers.
-   * If it is a function, it will be invoked when rendering a line number and the return value will be rendered.
+   * Управляйте отображением номеров строк.
+   * Если это функция, она будет вызвана при отображении номера строки, и будет отображено возвращаемое значение.
    * Otherwise, if it is a truey, line numbers will be rendered normally (equivalent of using an identity function).
    * Otherwise, line numbers will not be rendered.
    * Defaults to true.
    */
   // "editor.lineNumbers": "on",
   /**
-   * Should the corresponding line be selected when clicking on the line number?
+   * Следует ли выбирать соответствующую строку при нажатии на номер строки?
    * Defaults to true.
    */
   // "editor.selectOnLineNumbers": true,
   /**
-   * Control the width of line numbers, by reserving horizontal space for rendering at least an amount of digits.
+   * Управляйте шириной номеров строк, резервируя горизонтальное пространство для отображения как минимум количества цифр.
    * Defaults to 5.
    */
   // "editor.lineNumbersMinChars": 5,
