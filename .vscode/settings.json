@@ -88,76 +88,76 @@
    */
   // "editor.mouseWheelZoom": false,
   /**
-   * Control the cursor style, either 'block' or 'line'.
+   * Управляйте стилем курсора: 'block' или 'line'.
    * Defaults to 'line'.
    */
   // "editor.cursorStyle": "line",
   /**
-   * Control the width of the cursor when cursorStyle is set to 'line'
+   * Управляйте шириной курсора, когда для cursorStyle установлено значение 'line'
    */
   // "editor.cursorWidth": 2,
   /**
-   * Enable font ligatures.
+   * Включите лигатуры шрифтов.
    * Defaults to false.
    */
   // "editor.fontLigatures": false,
   /**
-   * Disable the use of `will-change` for the editor margin and lines layers.
-   * The usage of `will-change` acts as a hint for browsers to create an extra layer.
+   * Отключите использование `will-change` для слоев полей и линий редактора.
+   * Использование `will-change` действует как подсказка браузерам создать дополнительный уровень.
    * Defaults to false.
    */
   // "editor.disableLayerHinting": false,
   /**
-   * Disable the optimizations for monospace fonts.
+   * Отключите оптимизацию для моноширинных шрифтов.
    * Defaults to false.
    */
   // "editor.disableMonospaceOptimizations": false,
   /**
-   * Should the cursor be hidden in the overview ruler.
+   * Если курсор скрыт на обзорной линейке.
    * Defaults to false.
    */
   // "editor.hideCursorInOverviewRuler": false,
   /**
-   * Enable that scrolling can go one screen size after the last line.
+   * Разрешите прокрутку на один размер экрана после последней строки.
    * Defaults to true.
    */
   // "editor.scrollBeyondLastLine": true,
   /**
-   * Enable that scrolling can go beyond the last column by a number of columns.
+   * Включите эту функцию, чтобы прокрутка могла выходить за пределы последнего столбца на несколько столбцов.
    * Defaults to 5.
    */
   // "editor.scrollBeyondLastColumn": 5,
   /**
-   * Enable that the editor animates scrolling to a position.
+   * Включите, чтобы редактор анимировал прокрутку до позиции.
    * Defaults to false.
    */
   // "editor.smoothScrolling": false,
   /**
-   * Enable that the editor will install an interval to check if its container dom node size has changed.
-   * Enabling this might have a severe performance impact.
+   * Включите, чтобы редактор устанавливал интервал, чтобы проверять, изменился ли размер его dom-узла контейнера.
+   * Включение этого может серьезно повлиять на производительность.
    * Defaults to false.
    */
   // "editor.automaticLayout": false,
   /**
-   * Control the wrapping of the editor.
-   * When `wordWrap` = "off", the lines will never wrap.
-   * When `wordWrap` = "on", the lines will wrap at the viewport width.
-   * When `wordWrap` = "wordWrapColumn", the lines will wrap at `wordWrapColumn`.
-   * When `wordWrap` = "bounded", the lines will wrap at min(viewport width, wordWrapColumn).
+   * Управляйте упаковкой редактора.
+   * When `wordWrap` = "off", линии никогда не будут переноситься.
+   * When `wordWrap` = "on", линии будут переноситься по ширине области просмотра.
+   * When `wordWrap` = "wordWrapColumn", строки будут перенесены на `wordWrapColumn`.
+   * When `wordWrap` = "bounded", линии будут перенесены на min (ширина области просмотра, wordWrapColumn).
    * Defaults to "off".
    */
   // "editor.wordWrap": "on",
   /**
-   * Control the wrapping of the editor.
-   * When `wordWrap` = "off", the lines will never wrap.
-   * When `wordWrap` = "on", the lines will wrap at the viewport width.
-   * When `wordWrap` = "wordWrapColumn", the lines will wrap at `wordWrapColumn`.
-   * When `wordWrap` = "bounded", the lines will wrap at min(viewport width, wordWrapColumn).
+   * Управляйте упаковкой редактора.
+   * When `wordWrap` = "off", линии никогда не будут переноситься.
+   * When `wordWrap` = "on", линии будут переноситься по ширине области просмотра.
+   * When `wordWrap` = "wordWrapColumn", строки будут перенесены на `wordWrapColumn`.
+   * When `wordWrap` = "bounded", линии будут перенесены на min (ширина области просмотра, wordWrapColumn).
    * Defaults to 80.
    */
   // "editor.wordWrapColumn": 0,
   /**
-   * Force word wrapping when the text appears to be of a minified/generated file.
+   * Принудительный перенос слов, если текст выглядит как минифицированный/сгенерированный файл.
    * Defaults to true.
    */
   // "editor.wordWrapMinified": true,
