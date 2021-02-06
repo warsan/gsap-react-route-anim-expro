@@ -16,7 +16,7 @@
    */
   // "editor.selectionClipboard": true,
   /**
-   * Управляйте отображением номеров строк.
+   * Управлять отображением номеров строк.
    * Если это функция, она будет вызвана при отображении номера строки, и будет отображено возвращаемое значение.
    * Otherwise, if it is a truey, line numbers will be rendered normally (equivalent of using an identity function).
    * Otherwise, line numbers will not be rendered.
@@ -29,13 +29,13 @@
    */
   // "editor.selectOnLineNumbers": true,
   /**
-   * Управляйте шириной номеров строк, резервируя горизонтальное пространство для отображения как минимум количества цифр.
+   * Управлять шириной номеров строк, резервируя горизонтальное пространство для отображения как минимум количества цифр.
    * Defaults to 5.
    */
   // "editor.lineNumbersMinChars": 5,
   /**
-   * Enable the rendering of the glyph margin.
-   * Defaults to true in vscode and to false in monaco-editor.
+   * Включить рендеринг поля глифа.
+   * По умолчанию true в vscode и false в monaco-editor.
    */
   // "editor.glyphMargin": true,
   /**
