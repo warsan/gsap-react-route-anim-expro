@@ -18,9 +18,9 @@
   /**
    * Управлять отображением номеров строк.
    * Если это функция, она будет вызвана при отображении номера строки, и будет отображено возвращаемое значение.
-   * Otherwise, if it is a truey, line numbers will be rendered normally (equivalent of using an identity function).
-   * Otherwise, line numbers will not be rendered.
-   * Defaults to true.
+   * В противном случае, если это правда, номера строк будут отображаться нормально (эквивалент использования функции идентификации).
+   * В противном случае номера строк не будут отображаться.
+   * По умолчанию true.
    */
   // "editor.lineNumbers": "on",
   /**
