@@ -1,3 +1,3 @@
-# gsap-react-route-animation-kjgwtw
+# gsap-react-route-anim-expro
 
-[Редактировать на StackBlitz ⚡️](https://stackblitz.com/edit/gsap-react-route-animation-kjgwtw)
+[Редактировать на StackBlitz ⚡️](https://stackblitz.com/edit/gsap-react-route-anim-expro)
